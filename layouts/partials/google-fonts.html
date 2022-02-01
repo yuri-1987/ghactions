@@ -8,6 +8,7 @@
   {{ $fonts = $fonts | append $string }}
 {{ end }}
 {{ $url_part := (delimit $fonts "|") | safeHTMLAttr }}
+<link rel="preconnect" href="https://fonts.gstatic.com">
 <link {{ printf "href=\"//fonts.googleapis.com/css?family=%s\"" $url_part | safeHTMLAttr }} rel="stylesheet">
 {{ else}}
 <!-- specify a default in case custom config not present -->

@@ -6,7 +6,7 @@
     margin-inline-start: auto;
     margin-inline-end: auto;
     line-height: var(--header-height);
-    font-family: 'Libre Baskerville', sans-serif;
+    font-family: 'Merriweather', sans-serif;
     overflow: hidden;
     /* border-bottom-style: dotted; */
 }
@@ -28,7 +28,6 @@
 .logo a {
     font-size: 30px;
     font-weight: 700;
-    font-weight: 300;
 }
 
 .logo a img {

@@ -2,7 +2,7 @@
     font-family: 'Libre Baskerville', sans-serif;
 }
 .page-header {
-    font-family: 'Libre Baskerville', sans-serif;
+    font-weight: 400;
     margin-top: 80px;
 }
 .post-header {
@@ -24,6 +24,7 @@
 .post-meta {
     text-align: center;
     font-size: 11px;
+    font-family: 'Merriweather', monospace;
     font-style: italic;
     color: var(--tertiary);
 }
@@ -53,6 +54,8 @@
     margin-top: 30px;
     font-size: 16px;
     font-weight: 300;
+    font-family: 'Merriweather', monospace;
+    font-weight: 400;
 }
 
 .post-content p:first-child::first-letter {

@@ -1,0 +1,22 @@
+:root {
+  --theme: #fffbf5;
+  --entry: #f7f1e7;
+  --primary: #494847;
+  --secondary: #706f6f;
+  --tertiary: #5d5d5f;
+  --content: #474747;
+  --code-bg: #fffbf5;
+  --border: #5d5b56;
+}
+
+.dark {
+  --theme: #393b3b;
+  --entry: #2e3030;
+  --primary: #E38F84;
+  --secondary: #ffe7e4;
+  --tertiary: #f7f2f1;
+  --content: #ffe7e4;
+  --hljs-bg: #1d1d1d;
+  --code-bg: #393b3b;
+  --border: #E38F84;
+}

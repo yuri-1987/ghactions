@@ -1,0 +1,104 @@
+baseURL: "https://gh.actions.run/"
+languageCode: en-us
+title: gh.actions.run
+theme: "PaperMod"
+
+paginate: 5
+enableRobotsTXT: true
+enableEmoji: true
+enableInlineShortcodes: true
+
+
+minify:
+  disableXML: true
+
+outputs:
+    home:
+      - HTML
+      - RSS
+      - JSON
+
+menu:
+  main:
+  - name: Search
+    url: search/
+    weight: 10
+  - name: Tags
+    url: tags/
+    weight: 10
+
+params:
+  env: production
+  assets:
+    disableFingerprinting: true
+  homeInfoParams:
+    Title: Hi there 👋
+    Content: A series of blog posts about my personal experience with github actions.
+  google_fonts:
+    - - 'Libre Baskerville'
+      - '400i, 400, 700'
+    - - 'Fira Code'
+      - '300, 400, 500, 600, 700'
+    - - Caveat
+      - '400, 500, 600, 700'
+    - - 'Open Sans'
+      - '400, 400i, 700'
+  logo_font: 'Caveat'
+  heading_font: 'Fira Code'
+  body_font: Open Sans
+  defaultTheme: auto
+  author: yuri-1987
+  title: github actions
+  keywords: [github, actions, cicd, terraform, helm]
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+  ShowFullTextinRSS: true
+  socialIcons:
+    - name: "rss"
+      url: "https://gh.actions.run/index.xml"
+    - name: "github"
+      url: "https://github.com/yuri-1987"
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        anchorLineNos: true
+        codeFences: true
+        guessSyntax: true
+        lineNos: false
+        style: dracula
+
+privacy:
+    vimeo:
+        disabled: false
+        simple: true
+
+    twitter:
+        disabled: false
+        enableDNT: true
+        simple: true
+
+    instagram:
+        disabled: false
+        simple: true
+
+    youtube:
+        disabled: false
+        privacyEnhanced: true
+
+services:
+    instagram:
+        disableInlineCSS: true
+    twitter:
+        disableInlineCSS: true

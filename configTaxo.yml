@@ -1,9 +1,6 @@
 timeout: 30000
 enableInlineShortcodes: true
 
-taxonomies:
-  tag: tags
-
 privacy:
   vimeo:
     disabled: false

@@ -2,6 +2,7 @@
 title: 'My First Post'
 date: 2022-01-31T17:18:05+01:00
 draft: false
+tags: ["cicd"]
 keywords: ["github", "actions", "terraform", "terraspace", ci, cd, cicd, atlantis]
 ---
 

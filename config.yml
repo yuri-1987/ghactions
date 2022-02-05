@@ -18,6 +18,13 @@ outputs:
       - RSS
       - JSON
 
+permalinks:
+  posts: /blog/:title/
+
+taxonomies:
+  category: categories
+  tag: tags
+
 menu:
   main:
   - name: Search
@@ -31,11 +38,14 @@ params:
   env: production
   assets:
     disableFingerprinting: true
-    favicon: "img/favicon.ico"
-    favicon32x32: "img/favicon-32x32.png"
+    favicon: "img/32.ico"
+    favicon32x32: "img/32.ico"
   homeInfoParams:
     Title: Hi there 👋
-    Content: A series of blog posts about my personal experience with github actions.
+    Content: |
+      This tiny website is about my experience with github actions, mostly on self-hosted runners.  
+      Some posts may seem odd to some of you, as they are very opinionated and will not apply to everyone,  
+      So please bear with me. 😊
   google_fonts:
     - - 'Libre Baskerville'
       - '400i, 400, 700'

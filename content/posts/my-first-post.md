@@ -2,6 +2,7 @@
 title: 'My First Post'
 date: 2022-01-31T17:18:05+01:00
 draft: false
+keywords: ["github", "actions", "terraform", "terraspace", ci, cd, cicd, atlantis]
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ante turpis, rhoncus vel nisi eu, congue iaculis neque. Nunc bibendum dui felis, et auctor mi maximus in. Vestibulum porta orci et ex mattis, sit amet feugiat justo fermentum. Duis blandit tempor purus at elementum. In id consequat lorem.

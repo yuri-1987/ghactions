@@ -4,6 +4,7 @@
 .page-header {
     font-weight: 400;
     margin-top: 80px;
+    font-family: 'Libre Baskerville', sans-serif;
 }
 .post-header {
     margin: 80px auto var(--content-gap) auto;
